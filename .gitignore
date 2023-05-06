@@ -1,0 +1,17 @@
+/listing
+/output
+RTE/
+*.dep
+*.uvgui.*
+*.uvguix.*
+
+/.vscode
+
+*.un~
+*.swp
+*.bak
+*.bin
+*.bat
+*.log
+*.scvd
+JLink*

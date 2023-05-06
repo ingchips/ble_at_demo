@@ -1,0 +1,93 @@
+{
+ "watchdog": true,
+ "bundle_meta": {
+  "rom": {
+   "size": 152856,
+   "base": 33562624
+  },
+  "ram": {
+   "size": 21964,
+   "base": 536870912
+  },
+  "app": {
+   "base": 33718272
+  },
+  "version": [
+   2,2,13]
+ },
+ "tc_dir": "C:\/Keil_v536\/uv4",
+ "eflash_addr": "0x42000",
+ "ide_ver": "5",
+ "ide_exe": "C:\/Keil_v536\/uv4\/uv4.exe",
+ "use_uart_trace": false,
+ "ota": true,
+ "ide": "keil",
+ "git": true,
+ "use_segger_rtt": true,
+ "trace_port": "seggerrtt",
+ "trace_mask": "",
+ "scan_data": "0\r\n",
+ "priv_addr": "GAP_RANDOM_ADDRESS_OFF",
+ "enable_hci_log": false,
+ "ota_ver_minor": "0",
+ "ota_ver_major": "0",
+ "template": "C:\\Program Files(2)\\ING_SDK\\wizard\\templates\\typical\\peripheral",
+ "coding_adv": false,
+ "key_incode": true,
+ "series": "ING9168xx",
+ "proj_name": "ble_at_demo",
+ "sdk_release_path": "..\/..\/sdk",
+ "printf_port": "uart0",
+ "security": true,
+ "legacy_adv": true,
+ "HANDLE_FOTA_VERSION": "3",
+ "adv_data": "0\r\n",
+ "use_eflash": true,
+ "wizard_dir": "C:\/Program Files(2)\/ING_SDK\/wizard",
+ "key_addr": "0x44000",
+ "trace_enable": true,
+ "HANDLE_FOTA_CONTROL": "5",
+ "pb_adv": true,
+ "is_sdk_path_rel": true,
+ "pb_gatt": true,
+ "deep_sleep": true,
+ "proj_dir": "C:\\Program Files(2)\\ING_SDK\\CustomApps\\ble_at_demo",
+ "heap_size": 0,
+ "power_saving": false,
+ "secondary": false,
+ "bundle": "mass_conn",
+ "app_rom_size": "360448",
+ "app_rom_addr": "33718272",
+ "family": "ing916",
+ "vcode": true,
+ "heap_override": false,
+ "trace_mask_nim": "",
+ "gatt_value_offset": {
+  "key": "HANDLE_FOTA_DATA_OFFSET",
+  "value": "171"
+ },
+ "io_cap": "IO_CAPABILITY_NO_INPUT_NO_OUTPUT",
+ "role": "peripheral",
+ "noos": false,
+ "mesh": {
+  "lowpower": true,
+  "friend": true,
+  "relay": true,
+  "proxy": true
+ },
+ "keil": true,
+ "cmsis": "C:\/Program Files(2)\/ING_SDK\/wizard\/CMSIS",
+ "cube": true,
+ "app_ram_size": 10800,
+ "app_ram_addr": 536892880,
+ "k5_cc_ver": "6",
+ "printf_enable": true,
+ "gatt_handle": {
+  "key": "HANDLE_FOTA_DATA",
+  "value": "7"
+ },
+ "ota_ver_patch": "0",
+ "profile_data": "\/\/ Service INGChips FOTA Service: {3345c2f0-6f36-45c5-8541-92f56728d5f3}\r\n0x18, 0x00, 0x02, 0x00, 0x01, 0x00, 0x00, 0x28,\r\n0xF3, 0xD5, 0x28, 0x67, 0xF5, 0x92, 0x41, 0x85, \r\n0xC5, 0x45, 0x36, 0x6F, 0xF0, 0xC2, 0x45, 0x33, \r\n\/\/ Characteristic FOTA Version: {3345c2f1-6f36-45c5-8541-92f56728d5f3}\r\n0x1B, 0x00, 0x02, 0x00, 0x02, 0x00, 0x03, 0x28,\r\n0x02, 0x03, 0x00, 0xF3, 0xD5, 0x28, 0x67, 0xF5, \r\n0x92, 0x41, 0x85, 0xC5, 0x45, 0x36, 0x6F, 0xF1, \r\n0xC2, 0x45, 0x33, \r\n0x16, 0x00, 0x02, 0x02, 0x03, 0x00,\r\n0xF3, 0xD5, 0x28, 0x67, 0xF5, 0x92, 0x41, 0x85, \r\n0xC5, 0x45, 0x36, 0x6F, 0xF1, 0xC2, 0x45, 0x33, \r\n\/\/ Characteristic FOTA Control: {3345c2f2-6f36-45c5-8541-92f56728d5f3}\r\n0x1B, 0x00, 0x02, 0x00, 0x04, 0x00, 0x03, 0x28,\r\n0x06, 0x05, 0x00, 0xF3, 0xD5, 0x28, 0x67, 0xF5, \r\n0x92, 0x41, 0x85, 0xC5, 0x45, 0x36, 0x6F, 0xF2, \r\n0xC2, 0x45, 0x33, \r\n0x16, 0x00, 0x06, 0x03, 0x05, 0x00,\r\n0xF3, 0xD5, 0x28, 0x67, 0xF5, 0x92, 0x41, 0x85, \r\n0xC5, 0x45, 0x36, 0x6F, 0xF2, 0xC2, 0x45, 0x33, \r\n\/\/ Characteristic FOTA Data: {3345c2f3-6f36-45c5-8541-92f56728d5f3}\r\n0x1B, 0x00, 0x02, 0x00, 0x06, 0x00, 0x03, 0x28,\r\n0x04, 0x07, 0x00, 0xF3, 0xD5, 0x28, 0x67, 0xF5, \r\n0x92, 0x41, 0x85, 0xC5, 0x45, 0x36, 0x6F, 0xF3, \r\n0xC2, 0x45, 0x33, \r\n0x16, 0x00, 0x04, 0x03, 0x07, 0x00,\r\n0xF3, 0xD5, 0x28, 0x67, 0xF5, 0x92, 0x41, 0x85, \r\n0xC5, 0x45, 0x36, 0x6F, 0xF3, 0xC2, 0x45, 0x33, \r\n\r\n0x00,0x00\r\n\/\/ total size = 173\r\n\r\n\/\/ HANDLE_FOTA_VERSION=3\r\n\/\/ HANDLE_FOTA_CONTROL=5\r\n\/\/ HANDLE_FOTA_DATA=7\r\n\r\n\/\/ HANDLE_FOTA_VERSION_OFFSET=73\r\n\/\/ HANDLE_FOTA_CONTROL_OFFSET=122\r\n\/\/ HANDLE_FOTA_DATA_OFFSET=171\r\n",
+ "coding_profile": false,
+ "HANDLE_FOTA_DATA": "7"
+}
