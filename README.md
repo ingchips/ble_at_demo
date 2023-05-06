@@ -4,4 +4,4 @@
 
 将项目文件夹放置于 _ING_SDK/XXX_ 目录下编译，XXX 为任意目录名。
 
-详请请参阅 doc/index.md.
+详请请参阅 [doc/index.md](doc/index.md).
